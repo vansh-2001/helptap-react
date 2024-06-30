@@ -1,0 +1,55 @@
+@import "../../assets/styles/core";
+
+
+.booking{
+    flex-basis: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    height: fit-content;
+    min-width: 25%;
+    // margin: 0px 10px 0px 10px;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    // background-color: blue; /* For browsers that do not support gradients */
+    // background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+
+    .booking__image{
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px; 
+        // background-color: blue; /* For browsers that do not support gradients */
+        // background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    
+    }
+
+    .booking__date{
+        font-weight: 500;
+        font-family: "Neue Helvetica";
+        font-size: 14px;
+        color: $text-color-six;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .booking__title{
+        font-weight: 600;
+        font-family: "Neue Helvetica";
+        font-size: 18px;
+        margin-top: 10px;
+        color: $text-color-one;
+        text-transform: capitalize;
+    }
+
+    .booking__desc{
+        font-weight: 500;
+        font-family: "Neue Helvetica";
+        font-size: 16px;
+        margin-top: 10px;
+        color: $text-color-two;
+
+    }
+}

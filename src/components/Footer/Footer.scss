@@ -1,0 +1,30 @@
+@import "../../assets/styles/core";
+
+.footer{
+    background-color: $background-color-six;
+    padding: 50px;
+
+    .footer__container{ 
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    .footer__title{
+        font-weight: 600;
+        font-size: 14px;
+        color: $text-color-one;        
+        font-family: "Neue Helvetica";
+        margin-bottom: 20px;
+    }
+
+    .footer__item{
+        font-weight: 400;
+        font-size: 14px;
+        color: $text-color-two  ;        
+        font-family: "Neue Helvetica";
+        margin-bottom: 20px;
+    }
+}

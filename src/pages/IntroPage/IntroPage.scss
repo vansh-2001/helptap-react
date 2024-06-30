@@ -1,0 +1,87 @@
+@import "../../assets/styles/core";
+
+.introPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    max-width: 500px;
+    background-color: $background-color-one;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    .introPage__title{
+        color: $text-color-one;
+        font-weight: 700;
+        font-family: "Neue Helvetica Semi Bold";
+        font-size: 38px;
+        text-align: center;
+        margin-top: 50px;
+        text-transform: capitalize;
+    }
+
+    .introPage__subTitle{   
+        color: $text-color-two;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Neue Helvetica";
+        margin: 0 auto;
+        max-width: 600px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .introPage__btn{
+        background-color: $btn-color-one;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .introPage__stats{
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        .introPage__icon{
+            width: 35px !important;
+            height: 35px !important;
+            display: flex;
+            margin: 0 auto;
+        }
+        .introPage__count{            
+            font-family: "Neue Helvetica";
+            font-weight: 700;
+            font-size: 38px;
+            color: $btn-color-one;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .introPage__desc{
+            font-family: "Neue Helvetica";
+            font-weight: 400;
+            font-size: 14px;
+            color: $text-color-two;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .introPage__startupCount{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 10px 0px 10px;
+        }
+
+        .introPage__rating{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 10px 0px 10px;
+        }
+
+        .introPage__value{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+}

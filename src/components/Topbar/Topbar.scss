@@ -1,0 +1,46 @@
+@import "../../assets/styles/core";
+
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .topbarLeft{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .topbarLeft__logo{
+      position: absolute;
+      top: -11px;
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
+
+  .topbarRight{
+    display: flex;
+    align-items: center;
+
+    .topbarRight__item{
+      font-size: 16px;
+      color: $text-color-one;
+      margin-left: 20px;
+    }
+    
+
+    .topbarRight__arrow {
+      display: flex;
+      align-items: center;
+      color: $btn-color-one !important;
+
+      .topbarRight__backIcon{
+        margin-left: 10px;
+        
+      }
+    }
+  }
+}

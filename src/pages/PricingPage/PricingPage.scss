@@ -1,0 +1,112 @@
+@import "../../assets/styles/core";
+
+.pricingPage{
+    height: 600px;
+    margin-bottom: 100px;
+    .pricingPage__bgBlue{
+        background-color: $background-color-five;
+        height: 400px;
+        padding-top: 40px;
+        .pricingPage__title{
+            font-size: 28px;        
+            color: white;
+            font-weight: 700;
+            font-family: "Neue Helvetica Semi Bold";
+            text-align: center;
+            position: relative;
+            text-transform: capitalize;
+        }
+
+        .pricingPage__subTitle{
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Neue Helvetica";
+            margin: 0 auto;
+            max-width: 600px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .pricingPage__pricing{
+            font-size: 28px;        
+            color: white;
+            font-weight: 700;
+            font-family: "Neue Helvetica Semi Bold";
+            text-align: center;
+            position: relative;
+            margin-top: 40px;
+        }
+
+        .pricingPage_charge{
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Neue Helvetica";
+            margin: 0 auto;
+            max-width: 600px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    .pricingPage__adWrapper{
+        background-color: $background-color-one;
+        border-radius: 10px;
+        width: 60%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 35px rgba(8, 32, 50, 0.07);
+        margin-top: -125px; 
+        position: relative;
+        .pricingPage__bgBefore{
+            z-index: -1;
+            position: absolute;
+            left: -100px;
+            bottom: -50px;
+            height: 110px;
+        }
+
+        .pricingPage__bgAfter{
+            z-index: -1;
+            position: absolute;
+            right: -100px;
+            bottom: 0px;
+            height: 110px;
+        }
+        
+        .pricingPage__ads {   
+            max-width: 600px;   
+            font-size: 28px;        
+            color: $text-color-one;
+            font-weight: 700;
+            font-family: "Neue Helvetica Semi Bold";
+            text-align: center;
+            position: relative;
+            text-transform: capitalize;
+            margin: 0 auto;
+        }
+
+        .pricingPage__btn{
+            background-color: $btn-color-one;            
+            font-family: "Neue Helvetica";
+            color: white;
+            font-weight: 700;
+            border: none;
+            padding: 10px;
+            width: fit-content;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            margin-top: 20px;
+
+        }
+    }
+}

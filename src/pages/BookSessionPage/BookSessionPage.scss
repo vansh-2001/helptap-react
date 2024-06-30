@@ -1,0 +1,88 @@
+@import "../../assets/styles/core";
+
+.bookSessionPage{
+    background-color: $background-color-one;
+    padding-top: 40px;
+    .bookSessionPage__title{
+        font-size: 28px;        
+        color: $text-color-one;
+        font-weight: 700;
+        font-family: "Neue Helvetica Semi Bold";
+        text-align: center;
+        text-transform: capitalize;
+        position: relative;
+    }
+    .bookSessionPage__subTitle{
+        color: $text-color-two;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Neue Helvetica";
+        margin: 0 auto;
+        max-width: 600px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .bookSessionPage__btnGroup{
+        text-align: center;
+        .bookSessionPage__btn{
+            font-weight: 500;
+            font-family: "Neue Helvetica";
+            font-size: 16px;
+            color: $text-color-two;
+            background-color: $background-color-one;
+            font-weight: 500;
+            text-align: center;
+            text-transform: capitalize;
+            border: 1px solid rgba(44, 53, 66, 0.1);  
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+    }
+
+    .bookSessionPage__rightGradient{
+        -webkit-mask-image: linear-gradient( 
+                90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 10%);
+    }
+    .bookSessionPage__list{
+        -webkit-mask-image: linear-gradient( 
+                270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 10%);
+        margin-top: 10px;
+        margin-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        -ms-overflow-style: none; 
+        overflow: -moz-scrollbars-none;        
+        scrollbar-width: none;
+       
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .bookSessionPage__btnBook{        
+        background-color: $btn-color-one;            
+        font-family: "Neue Helvetica";
+        color: white;
+        font-weight: 700;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+}

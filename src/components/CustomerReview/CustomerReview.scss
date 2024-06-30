@@ -1,0 +1,38 @@
+@import "../../assets/styles/core";
+
+.customerReview{
+    flex-basis: 30%;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    width: 300px;
+    height: fit-content;
+    min-width: 25%;
+    margin: 0px 10px 0px 10px;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    .customerReview__desc{
+        font-weight: 400;
+        font-size: 16px;
+        font-style: italic;
+    }
+    .customerReview__userInfo{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        .customerReview__userAvatar{
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .customerReview__username{
+            font-weight: 700;
+        }
+        .customerReview__userrole{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
